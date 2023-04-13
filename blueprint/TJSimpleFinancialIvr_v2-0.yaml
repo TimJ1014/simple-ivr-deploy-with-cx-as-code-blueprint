@@ -113,13 +113,13 @@ inboundCall:
               globalDtmf: false
               globalSpeechRecTerms: false
           - menuTransferToAcd:
-              name: SimpleFinancial401K
+              name: TJSimpleFinancial401K
               dtmf: digit_1
               globalDtmf: false
               globalSpeechRecTerms: false
               targetQueue:
                 lit:
-                  name: Simple Financial 401K queue
+                  name: TJ Simple Financial 401K queue
               preTransferAudio:
                 tts: We will transfer you to a 401K specialist shortly
               failureTransferAudio:
